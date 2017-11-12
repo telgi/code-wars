@@ -1,9 +1,9 @@
 def get_real_floor(n)
   if n <= 0
-    n = n
+    n
   elsif n > 13
-    n = n - 2
+    n - 2
   else n < 13
-    n = n - 1
+    n - 1
   end
 end
