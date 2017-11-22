@@ -1,3 +1,3 @@
 def cube_checker(volume, side)
-  volume + side > 0 ? (side ** 3 == volume ? true : false) : false
+  volume > 0 && volume == side**3
 end
